@@ -8,7 +8,8 @@ use App\Http\Controllers\DashboardController;
 
 Route::get('/', HomeController::class)->name('home');
 
-Route::view('/test','blog.show');
+Route::view('/detail','blog.show');
+Route::view('/kategori','kategori.index');
 
 Route::middleware('auth')->group(function () {
     Route::get('/dashboard', DashboardController::class)->name('dashboard');

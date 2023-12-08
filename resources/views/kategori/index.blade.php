@@ -1,11 +1,9 @@
 <x-jumbotron>
-    <h1 class="display-5 fw-bold">Putra Pantura</h1>
-    <p class="col-md-8 fs-4">Website yang menyajian informasi seputar Dunia Teknologi, Komputer, Smartphone dan Tips &
-        Trik terbaru</p>
+    <h1 class="display-5 fw-bold">Komputer</h1>
+    <p class="col-md-8 fs-4">Temukan artikel menarik lainnya seputar Komputer di sini !</p>
 </x-jumbotron>
 
-
-<x-app>
+<x-app title="Kategori">
     <h2 class="fs-4 fw-semibold">Artikel <strong>Terbaru</strong></h2>
     <div class="row">
         <div class="col-md-4">

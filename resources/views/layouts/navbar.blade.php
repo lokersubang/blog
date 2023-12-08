@@ -1,5 +1,5 @@
-<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark border-bottom border-success"
-    aria-label="Main navigation">
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark border-bottom border-success" aria-label="Main navigation"
+    style="background-color: #0f172a">
     <div class="container">
         <a class="navbar-brand fw-bold" href="{{ route('home') }}">{{ $appName ?? 'Putra Pantura' }}</a>
         <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
@@ -63,8 +63,7 @@
                     </li>
                 @else
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Pencarian..."
-                            aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <input type="text" class="form-control" placeholder="Pencarian...">
                         <button class="btn btn-success" type="button" id="button-addon2">Cari</button>
                     </div>
                 @endauth
