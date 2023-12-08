@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark border-bottom border-success"
     aria-label="Main navigation">
     <div class="container">
-        <a class="navbar-brand fw-bold" href="{{ route('home') }}">{{ $appName ?? 'Blog' }}</a>
+        <a class="navbar-brand fw-bold" href="{{ route('home') }}">{{ $appName ?? 'Putra Pantura' }}</a>
         <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -27,7 +27,7 @@
                     <a class="nav-link" href="#">Komputer</a>
                 </li>
                 @guest
-                    <li class="nav-item px-1 text-uppercase">
+                    <li class="nav-item px-1 ">
                         <a class="nav-link" href="{{ route('login') }}"><i class="item-center bi bi-box-arrow-in-right"></i>
                             Login</a>
                     </li>
